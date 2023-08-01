@@ -21,21 +21,55 @@ header{
     display: flex;
     justify-content: center;
     background-color: black;
-    width: auto;
-    height: auto;
+    width: 1865px;
+    height: 50px;
 
 }
 
 nav{
 
     display: flex;
+    position: relative;
+    top:10px;
 
 }
 
+
+
 a{
     color: white;
-    font-size: 20px;
+    font-size: 23px;
     margin: 20px;
+
+}
+
+#link-home:hover{
+
+    color:red;
+
+}
+
+#link-filmes:hover{
+
+    color:rgb(26, 255, 0);
+
+}
+
+#link-séries:hover{
+
+    color:rgb(58, 203, 162);
+
+}
+
+#link-anime:hover{
+
+    color:rgb(128, 0, 255);
+
+}
+
+#link-desenho:hover{
+
+    color:rgb(204, 185, 40);
 
 }
 
