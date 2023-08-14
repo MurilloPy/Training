@@ -40,3 +40,41 @@ header{
     background-color: white;
 
 }
+
+.menu{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100%;
+    top: 0px;
+    left: -200px;
+    transition: 0.3s ease;
+    position: fixed;
+    background-color: rgb(41, 41, 41);
+
+}
+
+.menu.show-menu{
+
+    left: 0px;
+
+}
+
+.menu a{
+
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+
+}
+
+.menu li{
+
+    list-style: none;
+    margin-top: 10px;
+
+}
