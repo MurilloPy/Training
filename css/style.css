@@ -2,31 +2,41 @@
 
     padding: 0;
     margin: 0;
-    box-sizing: none;
-    
+    box-sizing: border-box;
+
 }
 
 :root{
 
     background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
-.X{
+header{
+
+    background-color: black;
+    width: 116,0rem;
+    height: 80px;
+
+}
+
+.hamburger{
 
     display: flex;
     flex-direction: column;
     cursor: pointer;
-    position: fixed;
-    left:300px;
-    top:300px;
+    position: absolute;
+    left:1280px;
+    top:20px;
+
 }
 
-.camada-left{
+.camada{
 
     width: 30px;
     height: 3px;
-    transform: rotate(30px);
-    background-color: black;
+    margin: 3px 0;
+    background-color: white;
 
 }
