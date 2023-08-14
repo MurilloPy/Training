@@ -45,8 +45,6 @@ header{
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 200px;
     height: 100%;
     top: 0px;
@@ -54,6 +52,7 @@ header{
     transition: 0.3s ease;
     position: fixed;
     background-color: rgb(41, 41, 41);
+    text-align: center;
 
 }
 
@@ -74,14 +73,16 @@ header{
 
 .menu li{
 
+    position: relative;
+    top:200px;
     list-style: none;
     margin-top: 10px;
 
 }
 
-a:hover{
+.menu li:hover{
 
+    cursor: pointer;
     background-color: red;
-    width: 140px;
 
 }
