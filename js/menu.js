@@ -7,3 +7,17 @@ hamburger.addEventListener("click", () => {
     menu.classList.toggle("show-menu");
 
 });
+
+
+document.addEventListener("click", (event) => {
+
+    const targetElement = event.target;
+
+    if (!hamburger.contains(targetElement) && !menu.contains(targetElement)){
+
+        hamburger.classList.remove("open");
+        menu.classList.remove("show-menu");
+
+    };
+
+})
