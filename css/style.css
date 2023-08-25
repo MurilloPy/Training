@@ -1,34 +1,7 @@
-*{
-
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-
-}
-
-:root{
-
-    background-color: aliceblue;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-
-header{
-
-    background-color: black;
-    width: 116,0rem;
-    height: 80px;
-
-}
-
 .hamburger{
 
     display: flex;
     flex-direction: column;
-    cursor: pointer;
-    position: absolute;
-    left:1280px;
-    top:20px;
 
 }
 
@@ -36,53 +9,7 @@ header{
 
     width: 30px;
     height: 3px;
-    margin: 3px 0;
-    background-color: white;
-
-}
-
-.menu{
-
-    display: flex;
-    flex-direction: column;
-    width: 200px;
-    height: 100%;
-    top: 0px;
-    left: -200px;
-    transition: 0.3s ease;
-    position: fixed;
-    background-color: rgb(41, 41, 41);
-    text-align: center;
-
-}
-
-.menu.show-menu{
-
-    left: 0px;
-
-}
-
-.menu a{
-
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    color: rgb(255, 255, 255);
-
-}
-
-.menu li{
-
-    position: relative;
-    top:200px;
-    list-style: none;
-    margin-top: 10px;
-
-}
-
-.menu li:hover{
-
-    cursor: pointer;
-    background-color: red;
+    margin: 2px 0;
+    background-color: black;
 
 }
