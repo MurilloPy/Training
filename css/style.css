@@ -1,15 +1,24 @@
-.hamburger{
+*{
 
-    display: flex;
-    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 
 }
 
-.camada{
+:root{
 
-    width: 30px;
-    height: 3px;
-    margin: 2px 0;
-    background-color: black;
+    background-color: white;
+
+}
+
+.divMain{
+
+    position: sticky;
+    background-color: red;
+    border-radius: 10px;
+    width: 100px;
+    height: 80px;
+    top: 200px;
 
 }
